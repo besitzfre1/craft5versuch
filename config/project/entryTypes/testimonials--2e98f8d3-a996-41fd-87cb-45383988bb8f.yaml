@@ -1,0 +1,102 @@
+color: null
+fieldLayouts:
+  3044aeae-c8ee-4baa-a39d-309da42388a7:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 9a3d509f-0817-4939-ba9d-7bc072e7a2a6 # Plain Text
+            handle: testimonial
+            includeInCards: false
+            instructions: null
+            label: Testimonial
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1660f43c-090a-4aa3-96af-3c7690063ef3
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition:
+              class: craft\elements\conditions\entries\EntryCondition
+              conditionRules:
+                -
+                  class: craft\fields\conditions\TextFieldConditionRule
+                  fieldUid: 9a3d509f-0817-4939-ba9d-7bc072e7a2a6 # Plain Text
+                  layoutElementUid: 1660f43c-090a-4aa3-96af-3c7690063ef3
+                  operator: notempty
+                  uid: 56e0e325-f459-4aed-b87a-3adf8b2f4d72
+                  value: ''
+              elementType: craft\elements\Entry
+              fieldContext: global
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: Name
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: c75342bb-26bc-4040-8f0c-3ca2be63424f
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition:
+              class: craft\elements\conditions\entries\EntryCondition
+              conditionRules:
+                -
+                  class: craft\fields\conditions\TextFieldConditionRule
+                  fieldUid: 9a3d509f-0817-4939-ba9d-7bc072e7a2a6 # Plain Text
+                  layoutElementUid: 1660f43c-090a-4aa3-96af-3c7690063ef3
+                  operator: notempty
+                  uid: 7e747d30-3735-4f2b-bde6-beb2c191fa3e
+                  value: ''
+              elementType: craft\elements\Entry
+              fieldContext: global
+            fieldUid: 9a3d509f-0817-4939-ba9d-7bc072e7a2a6 # Plain Text
+            handle: location
+            includeInCards: false
+            instructions: null
+            label: Location
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: af606caf-edfe-407b-bdfc-4f2f69ec8274
+            userCondition: null
+            warning: null
+            width: 50
+        name: Content
+        uid: b12b0bfc-1189-4ab5-a7d0-b3ae7e6b241e
+        userCondition: null
+handle: testimonials
+hasTitleField: true
+icon: person-chalkboard
+name: Testimonials
+showSlugField: false
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
